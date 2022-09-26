@@ -128,13 +128,32 @@ header .container{
   margin: 20px 0;
 }
 
-.planning .box:last-child p
-
 /* TESTIMONIALS */
 
 .testimonials .box{
   background-color: #9792E4;
+  color: white;
+  margin-top: 20px;
 }
+
+.testimonials .box img{
+  border-radius: 50%;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonials .box p{
+  margin-bottom: 10px;
+}
+
+.testimonials .box .name{
+  text-transform: uppercase;
+}
+
+
 
 /* BENEFITS */
 
