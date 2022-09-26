@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+
 img{
   width: 100%;
 }
@@ -188,6 +192,14 @@ footer{
 
   .benefits .box{
     width: calc(100% / 3);
+  }
+
+  .features .row-1 .box:first-child{
+    display: flex;
+  }
+
+  .row-1 .box-text{
+    width: 50%;
   }
 
 }
