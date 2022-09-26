@@ -108,6 +108,28 @@ header .container{
   background-color: #9792E4;
 }
 
+.planning .box{
+  padding: 2rem;
+  color: white;
+}
+
+.planning .box:first-child h2{
+  margin: 50px 0;
+  font-size: 2rem;
+}
+
+.planning .box:last-child{
+  background-color: white;
+  color: black;
+}
+
+.planning .box:last-child h2,
+.planning .box:last-child p{
+  margin: 20px 0;
+}
+
+.planning .box:last-child p
+
 /* TESTIMONIALS */
 
 .testimonials .box{
