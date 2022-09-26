@@ -119,3 +119,16 @@ footer{
   }
 
 }
+
+@media screen and (min-width: 1140px) {
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .benefits .box{
+    width: calc(100% / 3);
+  }
+
+}
