@@ -55,6 +55,8 @@ header .container{
 
 .box{
   margin-bottom: 10px;
+  border-radius: 2rem;
+  padding: 20px 15px;
 }
 
 /* FEATURES */
@@ -62,6 +64,37 @@ header .container{
 .features .box{
   background-color: #B5DDFF;
   margin: 0.5rem;
+  color: #0084FD;
+}
+
+
+.features .box p{
+  color: #5A6E7F;
+  margin-bottom: 20px;
+}
+
+.features .box h2{
+  margin-bottom: 30px;
+}
+
+.features .box i{
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.features .btn{
+  background-color: #0084FD;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  text-align: center;
+}
+
+.features .btn a{
+  color: white;
+  text-decoration: none;
 }
 
 /* PLANNING */
@@ -110,15 +143,27 @@ footer{
 
   .features .row-1,
   .features .row-2,
-  .planning,
   .benefits,
   .about-us{
     flex-direction: row;
   }
 
+  .features .row-1 .box:last-child{
+    width: 66%;
+  }
+
+  .features .box img{
+    display: block;
+  }
+
   .features .row-2 .box{
     width:calc(100% / 3);
   }
+
+
+.features img{
+  width: 50%;
+}
 
   .benefits h2, .about-us h2{
     width: 100%;
