@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{
+  width: 100%;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.space-btw{
+  justify-content: space-between;
+}
+
+
+/* HEADER */
+
+header{
+  height: 70px;
+  background-color: #0084FD;
+  color: white;
+}
