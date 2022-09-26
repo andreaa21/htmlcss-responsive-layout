@@ -82,3 +82,10 @@ header .container{
 }
 
 
+/* FOOTER */
+
+footer{
+  height: 225px;
+  background-color: #222222;
+  color: white;
+}
