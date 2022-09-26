@@ -170,7 +170,7 @@ footer{
 
   .features .row-1,
   .features .row-2,
-  .benefits,
+  .benefits .section-content,
   .about-us{
     flex-direction: row;
   }
@@ -196,7 +196,7 @@ footer{
     width: 100%;
   }
   
-  .benefits{
+  .benefits .section-content{
     flex-wrap: wrap;
   }
 
