@@ -56,3 +56,19 @@ header .container{
 .planning{
   background-color: #9792E4;
 }
+
+/* TESTIMONIALS */
+
+.testimonials .box{
+  background-color: #9792E4;
+}
+
+/* BENEFITS */
+
+.benefits{
+  background-color: #9792E4;
+}
+
+.benefits .box{
+  background-color: white;
+}
