@@ -209,7 +209,7 @@ footer{
 @media screen and (min-width: 1140px) {
 
   .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
 
@@ -225,4 +225,7 @@ footer{
     width: 50%;
   }
 
+  .planning .section-content{
+    flex-direction: row;
+  }
 }
