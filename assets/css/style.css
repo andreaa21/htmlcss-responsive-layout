@@ -22,6 +22,10 @@
   justify-content: space-between;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .col{
   flex-direction: column;
 }
@@ -91,3 +95,27 @@ footer{
 }
 
 
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+
+  .features .row,
+  .planning,
+  .benefits,
+  .about-us{
+    flex-direction: row;
+  }
+
+  .benefits h2, .about-us h2{
+    width: 100%;
+  }
+  
+  .benefits{
+    flex-wrap: wrap;
+  }
+
+  .benefits .box{
+    width: 50%;
+  }
+
+}
