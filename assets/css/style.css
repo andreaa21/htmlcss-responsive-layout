@@ -177,8 +177,46 @@ header .container{
   background-color: #9792E4;
 }
 
+.benefits h2{
+  color: white;
+  font-size: 2rem;
+  margin: 30px 0;
+}
+
 .benefits .box{
   background-color: white;
+  text-align: left;
+  padding: 2rem;
+}
+
+.benefits .box span{
+  color: #9792E4;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.benefits .box h3{
+  color: #9792E4;
+  margin: 30px 0;
+  font-size: 1.5rem;
+}
+
+.benefits .box p{
+  margin-bottom: 30px;
+  color: #5A6E7F;
+}
+
+.benefits .box .btn{
+  background-color: #9792E4;
+  border-radius: 20px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.benefits .box .btn a{
+  text-decoration: none;
+  color: white;
 }
 
 /* ABOUT US */
@@ -236,7 +274,7 @@ footer{
   }
 
   .benefits .box{
-    width: 50%;
+    width: calc(98% / 2);
   }
 
   .testimonials .box{
@@ -260,7 +298,7 @@ footer{
   }
 
   .benefits .box{
-    width: calc(100% / 3);
+    width: calc(95% / 3);
   }
 
   .features .row-1 .box:first-child{
