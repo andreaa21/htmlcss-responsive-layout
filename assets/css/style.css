@@ -69,6 +69,7 @@ header .container{
   background-color: #B5DDFF;
   margin: 0.5rem;
   color: #0084FD;
+  padding: 3rem 1rem;
 }
 
 
@@ -82,7 +83,7 @@ header .container{
 }
 
 .features .box i{
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 20px;
 }
 
