@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img{
+  width: 100%;
+}
+
 .container{
   width: 100%;
   padding: 2rem 1.5rem;
@@ -39,6 +43,10 @@ header{
   color: white;
 }
 
+header img{
+  width: 100px;
+}
+
 header .container{
   padding: 0 1.5rem;
 }
@@ -53,6 +61,7 @@ header .container{
 
 .features .box{
   background-color: #B5DDFF;
+  margin: 0.5rem;
 }
 
 /* PLANNING */
@@ -99,11 +108,16 @@ footer{
 
 @media screen and (min-width: 768px) {
 
-  .features .row,
+  .features .row-1,
+  .features .row-2,
   .planning,
   .benefits,
   .about-us{
     flex-direction: row;
+  }
+
+  .features .row-2 .box{
+    width:calc(100% / 3);
   }
 
   .benefits h2, .about-us h2{
