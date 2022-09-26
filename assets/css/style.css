@@ -6,7 +6,12 @@
 
 .container{
   width: 100%;
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
+}
+
+.debug{
+  border: 1px solid black;
+  background-color: rgba(255, 0, 0, .25);
 }
 
 .d-flex{
@@ -30,8 +35,24 @@ header{
   color: white;
 }
 
+header .container{
+  padding: 0 1.5rem;
+}
+
 /* MAIN */
 
 .box{
+  margin-bottom: 10px;
+}
+
+/* FEATURES */
+
+.features .box{
   background-color: #B5DDFF;
+}
+
+/* PLANNING */
+
+.planning{
+  background-color: #9792E4;
 }
